@@ -1,0 +1,16 @@
+{
+    "preload": "preload.js",
+    "logo": "logo.png",
+    "features": [
+        {
+            "code": "cursor",
+            "explain": "cursor 中打开",
+            "cmds": [
+                "cursor",
+                "cursor open",
+                "cursor open folder",
+                "co"
+            ]
+        }
+    ]
+}
