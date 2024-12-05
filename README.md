@@ -1,0 +1,1 @@
+utool 中使用cursor快速当开当前目录
