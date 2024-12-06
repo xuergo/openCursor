@@ -12,6 +12,9 @@ window.exports = {
                                 console.error(`执行错误: ${error}`)
                             }
                         })
+                    }).catch((error) => {
+                        exec(`open -a Cursor`)
+                        utools.outPlugin()
                     })
             }
         }
