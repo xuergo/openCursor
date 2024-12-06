@@ -7,6 +7,7 @@ window.exports = {
                 utools.readCurrentFolderPath()
                     .then((dir) => {
                         exec(`open -a Cursor "${dir}"`, (error) => {
+                            utools.outPlugin()
                             if (error) {
                                 console.error(`执行错误: ${error}`)
                             }
